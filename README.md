@@ -1,15 +1,1 @@
-This is a simple Python application that allows users to track the jobs they have applied for. The application has a graphical user interface (GUI) built using the tkinter library.
-
-Features
-Users can add new jobs by entering the title, company, and status (applied, first interview, ghosted, rejected, accepted)
-Users can view a list of all the jobs they have added
-Users can delete any job from the list by double clicking on it
-Requirements
-Python 3.x
-tkinter library (built-in with python)
-How to use
-Run the script by using the command python job_tracker.py
-The application will open a window where you can add new jobs by filling in the title, company, and status
-You can view a list of all the jobs you have added in the main window
-You can delete any job from the list by double clicking on it
-Note: If you want to distribute the script you can convert it to an executable using pyinstaller or other libraries.
+This script is a Python program that uses the tkinter library to create a graphical user interface (GUI) for a job tracking application. The program uses the pyodbc library to connect to a SQL Server database and execute SQL queries to retrieve and insert data into the JobApplications table. The program also uses the datetime library to insert the current date and time into the date_applied field when a new job is added. The GUI includes labels, entry fields, and a drop-down menu for the status field, as well as buttons to add, delete and view jobs. The program also has functionality to delete a selected entry from the table and GUI.
